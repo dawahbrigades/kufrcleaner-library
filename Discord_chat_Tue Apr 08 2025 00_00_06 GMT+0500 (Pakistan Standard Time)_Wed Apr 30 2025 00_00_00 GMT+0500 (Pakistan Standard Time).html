@@ -1,0 +1,656 @@
+
+      <!DOCTYPE html>
+      <html lang="en">
+      <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Discord Chat Export</title>
+        <style>
+          body {
+            font-family: 'Whitney', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            background-color: #36393f;
+            color: #dcddde;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+          }
+          .container {
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid;
+            height: 100%;
+            overflow: auto;
+            flex: 1;
+            border-radius: 6px;
+          }
+          .chatTitle {
+            background-color: #2f3136;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+          }
+          .chatTitle img {
+            width: 64px;
+            height: 64px;
+            border-radius: 50%;
+            margin-right: 20px;
+          }
+          .titleInfo p {
+            margin: 5px 0;
+          }
+          .titleInfo p:first-child {
+            font-size: 24px;
+            font-weight: bold;
+          }
+          .chatContent {
+            background-color: #36393f;
+            border-radius: 8px;
+            padding: 0;
+            margin: 0;
+          }
+          .chatContent li {
+            list-style: none;
+            padding: 20px;
+            display: flex;
+            align-items: flex-start;
+          }
+          .chatContent li:hover {
+            background-color: #32353b;
+          }
+          .chatContent .titleImg {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin-right: 16px;
+          }
+          .messageContent {
+            flex-grow: 1;
+          }
+          .chatName {
+            color: #fff;
+            font-weight: 500;
+            margin-right: 8px;
+          }
+          .time {
+            color: #72767d;
+            font-size: 0.75rem;
+          }
+          .chatContent p {
+            margin: 8px 0;
+          }
+          .attachment {
+            margin-top: 12px;
+            max-width: 100%;
+          }
+          .image-attachment img {
+            max-width: 400px;
+            max-height: 300px;
+            border-radius: 4px;
+          }
+          .video-attachment video,
+          .audio-attachment audio {
+            max-width: 400px;
+          }
+          .file-attachment a {
+            display: inline-block;
+            padding: 8px 12px;
+            background-color: #2f3136;
+            border-radius: 4px;
+            color: #00b0f4;
+            text-decoration: none;
+            font-size: 0.9em;
+          }
+          .file-attachment a:hover {
+            background-color: #393c43;
+          }
+          .sameSender {
+            margin-top: -16px;
+          }
+          .sameSender .titleImg, .sameSender .chatName, .sameSender .time {
+            display: none;
+          }
+        </style>
+      </head>
+      <body>
+        <p style="text-align: center; font-size: 15px;">Export 38 message(s)</p>
+        <div class="container">
+          <div class="chatTitle">
+            <img src="https://cdn.discordapp.com/icons/1310948573768319047/5a30c06f64646dee3e4d69509ec8a4e0.webp?size=80&quality=lossless" alt="">
+            <div class="titleInfo">
+              <p>Kufrcleaner Library 📚</p>
+              <p>📜𝗜𝗦𝗟𝗔𝗠𝗜𝗖-𝗖𝗜𝗩𝗜𝗟𝗜𝗦𝗭𝗔𝗧𝗜𝗢𝗡</p>
+              <p style="font-size: 15px;">从 Tue Apr 08 2025 00:00:06 GMT+0500 (Pakistan Standard Time) 到 Wed Apr 30 2025 00:00:00 GMT+0500 (Pakistan Standard Time)</p>
+            </div>
+          </div>
+          <ul class="chatContent">
+            
+      <li >
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/796769460400554074/47c7813b83c55b806eddd7d98223e1ef.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">kufrcleaner1</span><span class="time">Tue Apr 08 2025 12:59:26 GMT+0500 (Pakistan Standard Time)</span></p>
+          <p><span style="color: skyblue;"></span> # Islamic_Civilization
+
+
+
+#  Contents
+
+ ۞Science between the causality of Islam and the randomness of atheism 
+
+۞Europe in the Middle Ages
+ ۞The impact of Christianity on science 
+۞Muslims’ rescue of the Greek heritage 
+۞Muslims’ correction of ancient sciences 
+۞Muslims’ invention of new sciences
+ ۞Europeans as students of Muslims 
+۞Europeans’ theft of our sciences 
+۞Women as scientists 
+۞Atheist scientists</p>
+          
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/796769460400554074/47c7813b83c55b806eddd7d98223e1ef.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">kufrcleaner1</span><span class="time">Tue Apr 08 2025 13:00:36 GMT+0500 (Pakistan Standard Time)</span></p>
+          <p><span style="color: skyblue;"></span> </p>
+          <div class="attachment video-attachment">
+                <video controls>
+                  <source src="https://cdn.discordapp.com/attachments/1359074889570455562/1359075444334399520/x-downloader.com_5OQeGa.mp4?ex=6800b524&is=67ff63a4&hm=78cbf58d5a6d2c7f6ac942e44bd41d8eac479a5b89f930499bd95a16b90bb8d9&" type="video/mp4">
+                  Your browser does not support the video element.
+                </video>
+              </div>
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/796769460400554074/47c7813b83c55b806eddd7d98223e1ef.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">kufrcleaner1</span><span class="time">Tue Apr 08 2025 13:02:13 GMT+0500 (Pakistan Standard Time)</span></p>
+          <p><span style="color: skyblue;"></span> # Thinking and contemplating is the path to knowledge.
+
+ Indeed, in the creation of the heavens and the earth, and the alternation of night and day, and the [great] ships that sail through the sea with that which benefits people, and what God has sent down from the sky of water, by which He has revived the earth after its lifelessness, and has dispersed therein every [kind of] moving creature, and [in] the directing of the winds and the clouds controlled between the sky and the earth, are signs for a people who reason.</p>
+          <div class="attachment image-attachment">
+                <img src="https://cdn.discordapp.com/attachments/1359074889570455562/1359075848027771071/FCnU1qbWQAM-CV5.png?ex=6800b584&is=67ff6404&hm=2fae1e639218e39fec3a81622f7ed75e4158cd14897c12e9504f4c6163f77460&" alt="图片附件">
+              </div>
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/796769460400554074/47c7813b83c55b806eddd7d98223e1ef.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">kufrcleaner1</span><span class="time">Tue Apr 08 2025 13:10:21 GMT+0500 (Pakistan Standard Time)</span></p>
+          <p><span style="color: skyblue;"></span> # Islamic_civilization is the religion of knowledge. 
+
+The Prophet, peace and blessings be upon him, said: When the son of Adam dies, his deeds come to an end except for three: knowledge that is beneficial.
+ 🔷The ceiling of the Library of Congress is decorated with the word “Islam” as one of the 12 sources of knowledge and science.
+ 🔷NASA names a mountain range on the surface of the planet Pluto after the Muslim scholar Al-Sharif Al-Idrisi.</p>
+          <div class="attachment image-attachment">
+                <img src="https://cdn.discordapp.com/attachments/1359074889570455562/1359077892650172596/FCnVIs8WUAktsXD.png?ex=6800b76c&is=67ff65ec&hm=d0577b793fe73d53f4a9c290e7ed233d0a56a8541e89ca42768fcfeb90196749&" alt="图片附件">
+              </div>
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/796769460400554074/47c7813b83c55b806eddd7d98223e1ef.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">kufrcleaner1</span><span class="time">Tue Apr 08 2025 13:12:58 GMT+0500 (Pakistan Standard Time)</span></p>
+          <p><span style="color: skyblue;"></span> # Islamic_civilization  is certain.
+
+ The Prophet (peace be upon him) said: “Tie it and trust in God” and “You are more knowledgeable about your worldly affairs.” Who established the principle of causality that established science. Had it not been for religion, we would not have believed in the perfection of the creation of the universe with fixed laws that are subject to discovery and re-experimentation because they are implemented by a Self-Sustaining Self, unlike atheism, which claims that existence is coincidental and random, so there is no guarantee of the results.
+
+See https://discord.com/channels/1310948573768319047/1355110903342960700</p>
+          <div class="attachment image-attachment">
+                <img src="https://cdn.discordapp.com/attachments/1359074889570455562/1359078557220864131/FCn5AeTXoAALwLo.png?ex=6800b80a&is=67ff668a&hm=bb26ee043a1059eebaa4d0eb4060cc0a4cbfc4b64201e9c9c7d4b326c2f003bb&" alt="图片附件">
+              </div>
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/796769460400554074/47c7813b83c55b806eddd7d98223e1ef.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">kufrcleaner1</span><span class="time">Tue Apr 08 2025 13:32:23 GMT+0500 (Pakistan Standard Time)</span></p>
+          <p><span style="color: skyblue;"></span> 🔷 The supernatural cause of the phenomenon does not contradict the existence of a material cause for it.
+🔷 It is impossible for what is religiously certain to conflict with what is scientifically certain.
+🔷 If what is conjectural in religion conflicts with what is conjectural in science, the one who has stronger evidence between them should present the alternative.
+🔷 If what is conjectural in religion conflicts with what is definitive in science, then the scientific explanation is presented.</p>
+          <div class="attachment image-attachment">
+                <img src="https://cdn.discordapp.com/attachments/1359074889570455562/1359083437406814208/FCn7qpUX0AE5uAG.png?ex=6800bc96&is=67ff6b16&hm=6687375b17ed72ee0bd08a0e61302a5383e0d6ab1e9eabe46f13402999d09906&" alt="图片附件">
+              </div>
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/796769460400554074/47c7813b83c55b806eddd7d98223e1ef.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">kufrcleaner1</span><span class="time">Tue Apr 08 2025 13:32:35 GMT+0500 (Pakistan Standard Time)</span></p>
+          <p><span style="color: skyblue;"></span> </p>
+          
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/796769460400554074/47c7813b83c55b806eddd7d98223e1ef.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">kufrcleaner1</span><span class="time">Tue Apr 08 2025 13:33:38 GMT+0500 (Pakistan Standard Time)</span></p>
+          <p><span style="color: skyblue;"></span> # <@&1312141880796123197></p>
+          
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/796769460400554074/47c7813b83c55b806eddd7d98223e1ef.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">kufrcleaner1</span><span class="time">Wed Apr 09 2025 23:30:57 GMT+0500 (Pakistan Standard Time)</span></p>
+          <p><span style="color: skyblue;"></span> # Christianity
+
+
+Which agreed in the East and the West to reject cleanliness and science
+The Prophet, peace and blessings be upon him, said: Purity is half of faith.
+He said, “Tie it and trust in God.”
+Trust in the Lord with all your heart and do not lean on your own understanding. (Proverbs 3:5)
+(And whoever has been given wisdom has certainly been given much good)
+I will destroy the wisdom of the wise and reject the understanding of the prudent. (1 Corinthians 1:19)
+
+
+<#1358373340062155033> <:emoji_4:1316847801019273307></p>
+          <div class="attachment image-attachment">
+                <img src="https://cdn.discordapp.com/attachments/1359074889570455562/1359596462463254711/FCoILiIX0AgNoso.png?ex=6800a020&is=67ff4ea0&hm=b34720a70b3b23bda0c1adafc484373e2c20dcb80b6a482a7b7d6ac924011e67&" alt="图片附件">
+              </div>
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/796769460400554074/47c7813b83c55b806eddd7d98223e1ef.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">kufrcleaner1</span><span class="time">Wed Apr 09 2025 23:38:06 GMT+0500 (Pakistan Standard Time)</span></p>
+          <p><span style="color: skyblue;"></span> # epidemic
+The Prophet, peace and blessings be upon him, said: “Seek treatment, for God has not created a disease without also creating a cure for it.”
+As for Europe, which was drowning in garbage, waste, and the rejection of personal hygiene, the Church forbade treatment, considering illness a punishment from God, and considered medicine heresy. There were no people among them like Ibn al-Nafis, Ibn Zuhr, or al-Zahrawi in medicine and surgery.</p>
+          <div class="attachment image-attachment">
+                <img src="https://cdn.discordapp.com/attachments/1359074889570455562/1359598260519698543/FCoIpEBX0AEYde2.png?ex=6800a1cd&is=67ff504d&hm=07aec6867d1ec58200d28e5713dc0bdac118621a14d639fefd8985937a71a9e8&" alt="图片附件">
+              </div>
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/796769460400554074/47c7813b83c55b806eddd7d98223e1ef.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">kufrcleaner1</span><span class="time">Wed Apr 09 2025 23:50:04 GMT+0500 (Pakistan Standard Time)</span></p>
+          <p><span style="color: skyblue;"></span> # Scientists are heretics in ✝️ 
+Unlike Islam, which respected wisdom and science, Christianity accused every scholar who violated the myths of the Bible of heresy and sentenced him to death by burning.
+(And whoever has been given wisdom has certainly been given much good) (Al-Baqarah: 269)
+I will destroy the wisdom of the wise and reject the understanding of the prudent. (1 Corinthians 1:19)
+
+<#1312097474667741275> see more in the quick version</p>
+          <div class="attachment image-attachment">
+                <img src="https://cdn.discordapp.com/attachments/1359074889570455562/1359601270788460665/FCoMmPJXEAIbUv3.png?ex=6800a49b&is=67ff531b&hm=8e500ce0265d58ce1bb154596fb0822d5540ef4b3ba9c06d3011000c71e23d5b&" alt="图片附件">
+              </div>
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/796769460400554074/47c7813b83c55b806eddd7d98223e1ef.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">kufrcleaner1</span><span class="time">Wed Apr 09 2025 23:53:52 GMT+0500 (Pakistan Standard Time)</span></p>
+          <p><span style="color: skyblue;"></span> </p>
+          <div class="attachment image-attachment">
+                <img src="https://cdn.discordapp.com/attachments/1359074889570455562/1359602231506108436/FCoMuLBWQAowIBQ.png?ex=6800a580&is=67ff5400&hm=9d386e2c749ef46c08472fd197e4366aa261218bcd530a7628a03a86e0508326&" alt="图片附件">
+              </div>
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/796769460400554074/47c7813b83c55b806eddd7d98223e1ef.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">kufrcleaner1</span><span class="time">Thu Apr 10 2025 00:29:36 GMT+0500 (Pakistan Standard Time)</span></p>
+          <p><span style="color: skyblue;"></span> #  Here Christianity  agrees with https://discord.com/channels/1310948573768319047/1355110903342960700
+
+
+in believing that man has an animal mind developed only for survival, so his thought is not to be trusted. As for man, he is empty and devoid of understanding. Man is born like a foal of a wild animal (Job 12:11). Man has no advantage over the beast (Ecclesiastes 19:3). Therefore, Europe despised education</p>
+          <div class="attachment image-attachment">
+                <img src="https://cdn.discordapp.com/attachments/1359074889570455562/1359611223594762300/FCox_cjWEAI7EyG.png?ex=6800ade0&is=67ff5c60&hm=30b2a5939ac8f3a530ca9bd7d18f69cd8837b72a763d19ec134d643a2d8f013a&" alt="图片附件">
+              </div>
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/796769460400554074/47c7813b83c55b806eddd7d98223e1ef.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">kufrcleaner1</span><span class="time">Thu Apr 10 2025 00:30:37 GMT+0500 (Pakistan Standard Time)</span></p>
+          <p><span style="color: skyblue;"></span> #  Muslims' rescue of the Greek heritage
+Muslims saved the ancient Greek heritage and knowledge from Christian destruction, as Europe rejected all sciences after its conversion to Christianity and destroyed them in the West and the East, such as burning the Library of Alexandria and others, while Muslims translated them. Without them, Europe would not have known its heritage.</p>
+          <div class="attachment image-attachment">
+                <img src="https://cdn.discordapp.com/attachments/1359074889570455562/1359611478109327390/FCozkFJX0AMc3mR.png?ex=6800ae1c&is=67ff5c9c&hm=de8a5bae2d32f094fdf0ad3e0f9837fe7e353c9ba6f739b414ead4fab944738f&" alt="图片附件">
+              </div>
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/796769460400554074/47c7813b83c55b806eddd7d98223e1ef.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">kufrcleaner1</span><span class="time">Thu Apr 10 2025 00:31:17 GMT+0500 (Pakistan Standard Time)</span></p>
+          <p><span style="color: skyblue;"></span> # Correction and innovation
+Without Ibn Rushd and his commentaries, the West would not have known Aristotle. Muslims were not satisfied with translating the ancient sciences, but they corrected them and the mistakes of their scholars, such as the book (Doubts about Ptolemy) by Ibn al-Haytham and (Doubts about Galen) by al-Razi. Muslims invented new sciences, some of which were stolen by the West, and Arabic remained the language of science for 7 centuries.</p>
+          <div class="attachment image-attachment">
+                <img src="https://cdn.discordapp.com/attachments/1359074889570455562/1359611646380736652/FCt-7S4XIAgl-Ah.png?ex=6800ae44&is=67ff5cc4&hm=1d6446f44a55af1c65a277eacf74baef7e974dcd1365cf35321701f2aa9350fe&" alt="图片附件">
+              </div>
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/796769460400554074/47c7813b83c55b806eddd7d98223e1ef.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">kufrcleaner1</span><span class="time">Thu Apr 10 2025 00:32:48 GMT+0500 (Pakistan Standard Time)</span></p>
+          <p><span style="color: skyblue;"></span> #  The Experimental Scientific Method
+ The credit for discovering the modern experimental scientific method goes to Al-Hasan Ibn Al-Haytham, who preceded Bacon by 500 years, according to the West’s testimony, contrary to what some (superficial and directed)</p>
+          <div class="attachment image-attachment">
+                <img src="https://cdn.discordapp.com/attachments/1359074889570455562/1359612024170090536/FCzAmpqXsAAMaN5.png?ex=6800ae9e&is=67ff5d1e&hm=185e7e69ee02b96ae1d899b5b0567285e02938cab561cda6629789c8b3b5e00f&" alt="图片附件">
+              </div>
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/796769460400554074/47c7813b83c55b806eddd7d98223e1ef.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">kufrcleaner1</span><span class="time">Thu Apr 10 2025 00:33:51 GMT+0500 (Pakistan Standard Time)</span></p>
+          <p><span style="color: skyblue;"></span> # Al-Hasan ibn al-Haytham</p>
+          <div class="attachment video-attachment">
+                <video controls>
+                  <source src="https://cdn.discordapp.com/attachments/1359074889570455562/1359612292987228360/x-downloader.com_sbsW02.mp4?ex=6800aedf&is=67ff5d5f&hm=0fa4b5154302a6082f58863d4fa5dcbd88f8171aa87ded3f3099e3bddf797220&" type="video/mp4">
+                  Your browser does not support the video element.
+                </video>
+              </div>
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/796769460400554074/47c7813b83c55b806eddd7d98223e1ef.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">kufrcleaner1</span><span class="time">Thu Apr 10 2025 00:35:08 GMT+0500 (Pakistan Standard Time)</span></p>
+          <p><span style="color: skyblue;"></span> from the book House of Wisdom
+In 1109, Adelard of Bath traveled from England to the East and returned with jewels of astronomy and mathematics that transformed European science. He was followed by others, such as Michael Scotus—who was burned at the stake for witchcraft—who learned Arabic and shook the Christian world with his translations of Ibn Rushd.</p>
+          <div class="attachment image-attachment">
+                <img src="https://cdn.discordapp.com/attachments/1359074889570455562/1359612611054014566/FC2zwuZXoAEL6yU.png?ex=6800af2a&is=67ff5daa&hm=58dc8ab5a534e8e7a20fb829e89f37a8f232ca6d4b16a5a0203c54bea823138b&" alt="图片附件">
+              </div>
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/796769460400554074/47c7813b83c55b806eddd7d98223e1ef.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">kufrcleaner1</span><span class="time">Thu Apr 10 2025 00:35:41 GMT+0500 (Pakistan Standard Time)</span></p>
+          <p><span style="color: skyblue;"></span> #  International University
+Europeans flocked to Muslim countries to learn modern sciences and translate their books...while the Christian Inquisition continued to persecute them and burned some of them on charges of heresy.</p>
+          <div class="attachment image-attachment">
+                <img src="https://cdn.discordapp.com/attachments/1359074889570455562/1359612751361871943/FC2-qPOWYAM2AHE.png?ex=6800af4c&is=67ff5dcc&hm=c3493ca6d3f7a8fc074d201483a02f29ec2eea41e2175ccb9c816da58d668751&" alt="图片附件">
+              </div>
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/796769460400554074/47c7813b83c55b806eddd7d98223e1ef.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">kufrcleaner1</span><span class="time">Thu Apr 10 2025 00:36:27 GMT+0500 (Pakistan Standard Time)</span></p>
+          <p><span style="color: skyblue;"></span> # taught the world
+A religion that encourages knowledge, the use of reason, innovation, invention and discovery. Through its universities, it has taken the world by the hand towards civilization.
+(Say: Are those who know equal to those who do not know?)
+(Indeed, in the creation of the heavens and the earth and the alternation of the night and the day are signs for those of understanding.</p>
+          <div class="attachment image-attachment">
+                <img src="https://cdn.discordapp.com/attachments/1359074889570455562/1359612941258719393/FC9scFjXEAobp8Y.png?ex=6800af79&is=67ff5df9&hm=5a03b418d956de9ad9cee4b711751898f5e0b86398731538494b6f85fa7db1c6&" alt="图片附件">
+              </div>
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/796769460400554074/47c7813b83c55b806eddd7d98223e1ef.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">kufrcleaner1</span><span class="time">Thu Apr 10 2025 00:37:02 GMT+0500 (Pakistan Standard Time)</span></p>
+          <p><span style="color: skyblue;"></span> # early
+Immediately after the mission of the Prophet, peace and blessings be upon him, in the eighth century, the world witnessed the first hospital and the first pharmacy in Baghdad during the Abbasid era. The ninth century witnessed the first university (Al-Qarawiyyin) in the city of Fez, which included the oldest library that is still operating today.</p>
+          <div class="attachment image-attachment">
+                <img src="https://cdn.discordapp.com/attachments/1359074889570455562/1359613095986725095/FC9v_VqWYA0Aib3.png?ex=6800af9e&is=67ff5e1e&hm=7d2a1894c0414f6b552c5d81b4d0e6d08539385ba4560cf14fce0ea18baa0922&" alt="图片附件">
+              </div>
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/796769460400554074/47c7813b83c55b806eddd7d98223e1ef.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">kufrcleaner1</span><span class="time">Thu Apr 10 2025 00:38:14 GMT+0500 (Pakistan Standard Time)</span></p>
+          <p><span style="color: skyblue;"></span> # Astronomy and Mathematics
+🔷 Because of the Islamic rituals, determining the times of prayer, the direction of the qibla, the holy months, Ramadan, and the knowledge of the positions of the moon and the sun that accompanies that, Muslims excelled in astronomy.
+🔷 The world uses Arabic numerals, and the first to use (zero) was Al-Khwarizmi, which the Church called (Mohammedan magic).</p>
+          <div class="attachment image-attachment">
+                <img src="https://cdn.discordapp.com/attachments/1359074889570455562/1359613397200666885/FC_nkvvWUAEO3jQ.png?ex=6800afe6&is=67ff5e66&hm=89f184b93449a3dc25234391bf25d365ab01237bb970f33b982bf0b93a013d1f&" alt="图片附件">
+              </div>
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/796769460400554074/47c7813b83c55b806eddd7d98223e1ef.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">kufrcleaner1</span><span class="time">Thu Apr 10 2025 00:39:03 GMT+0500 (Pakistan Standard Time)</span></p>
+          <p><span style="color: skyblue;"></span> #  Neil deGrasse Tyson</p>
+          <div class="attachment video-attachment">
+                <video controls>
+                  <source src="https://cdn.discordapp.com/attachments/1359074889570455562/1359613603019493507/x-downloader.com_Y6oJWW.mp4?ex=6800b017&is=67ff5e97&hm=6bd1adb3bd27a25e26fff8d05e375f7ae52a018417c336b8019c9f5a03314df5&" type="video/mp4">
+                  Your browser does not support the video element.
+                </video>
+              </div>
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/796769460400554074/47c7813b83c55b806eddd7d98223e1ef.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">kufrcleaner1</span><span class="time">Thu Apr 10 2025 00:40:48 GMT+0500 (Pakistan Standard Time)</span></p>
+          <p><span style="color: skyblue;"></span> # Al-Khwarizmi
+Muhammad ibn Musa al-Khwarizmi is the one who developed what is called algorithms after himself, which we use today in the form of computer programming and the like.</p>
+          <div class="attachment video-attachment">
+                <video controls>
+                  <source src="https://cdn.discordapp.com/attachments/1359074889570455562/1359614043459158177/x-downloader.com_TAQUFO.mp4?ex=6800b080&is=67ff5f00&hm=19b0aac4631380c6dc246baaeed571a8aaeceac933bc686213eda9d6cef5842c&" type="video/mp4">
+                  Your browser does not support the video element.
+                </video>
+              </div>
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/796769460400554074/47c7813b83c55b806eddd7d98223e1ef.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">kufrcleaner1</span><span class="time">Thu Apr 10 2025 00:42:07 GMT+0500 (Pakistan Standard Time)</span></p>
+          <p><span style="color: skyblue;"></span> # Medicine
+Taking precautions is one of the most important objectives of Islam. The Prophet, peace and blessings be upon him, said: “Seek treatment, for God has not created a disease without also creating a cure for it.” As for Christian Europe, it forbade treatment because illness is a punishment from God and considered taking precautions as taking medicine, which contradicts belief in God’s power. When it gained power, it burned the books of the Muslims, as it did with the books of the Greeks</p>
+          <div class="attachment image-attachment">
+                <img src="https://cdn.discordapp.com/attachments/1359074889570455562/1359614370874790090/FDJ5vB0XEAIc9e1.png?ex=6800b0ce&is=67ff5f4e&hm=9c8f09daf156506b0a1919c9e4550e02404a4ec9cb10aadd24dede95c15f9797&" alt="图片附件">
+              </div>
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/796769460400554074/47c7813b83c55b806eddd7d98223e1ef.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">kufrcleaner1</span><span class="time">Thu Apr 10 2025 00:42:56 GMT+0500 (Pakistan Standard Time)</span></p>
+          <p><span style="color: skyblue;"></span> # A thousand and one inventions
+🔷 Map of major Islamic contributions to science, discovery and invention
+🔷 Timeline of development in Islamic civilization</p>
+          <div class="attachment image-attachment">
+                <img src="https://cdn.discordapp.com/attachments/1359074889570455562/1359614575435317328/FDKIhjSXIAEupjh.png?ex=6800b0ff&is=67ff5f7f&hm=65852f2d591c2fbd185a256d80124f2ade149e9b89c0d04471d55facb967a1c6&" alt="图片附件">
+              </div>
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/796769460400554074/47c7813b83c55b806eddd7d98223e1ef.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">kufrcleaner1</span><span class="time">Thu Apr 10 2025 00:43:52 GMT+0500 (Pakistan Standard Time)</span></p>
+          <p><span style="color: skyblue;"></span> # woman
+Aisha (Mother of the Believers) learned a lot and transmitted the hadith.
+Rufaydah Al-Aslamiyah (a female companion of the Prophet), surgeon and owner of the first field hospital
+Fatima al-Fihri, founder of the first university in history (Al-Qarawiyyin)
+Maryam al-Asturlabi, astronomer
+Fatima Al-Majriti, astronomer
+Sitta Al-Mahmali, algebraist and mufti
+Contrary to the perception of Christianity and atheism</p>
+          <div class="attachment image-attachment">
+                <img src="https://cdn.discordapp.com/attachments/1359074889570455562/1359614811884884150/FDZm6WsXEAAcCr6.png?ex=6800b137&is=67ff5fb7&hm=17d5f102a35ac4727e4a4448de9b803317da39ee4eb4cbd841d6386be31694f3&" alt="图片附件">
+              </div>
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/796769460400554074/47c7813b83c55b806eddd7d98223e1ef.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">kufrcleaner1</span><span class="time">Thu Apr 10 2025 00:44:36 GMT+0500 (Pakistan Standard Time)</span></p>
+          <p><span style="color: skyblue;"></span> # https://discord.com/channels/1310948573768319047/1354369884779446379</p>
+          
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/796769460400554074/47c7813b83c55b806eddd7d98223e1ef.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">kufrcleaner1</span><span class="time">Thu Apr 10 2025 00:46:23 GMT+0500 (Pakistan Standard Time)</span></p>
+          <p><span style="color: skyblue;"></span> Have you not seen that God sends down water from the sky, and We produce thereby fruits of varying colors? And among the mountains are streaks white and red, varying colors and [some] very black. And among people and living creatures and livestock are varying colors. Thus only those fear God, from among His servants, who have knowledge. Indeed, God is Exalted in Might and Forgiving.
+#  NASA names one of the moon's craters "Al-Battani"</p>
+          <div class="attachment image-attachment">
+                <img src="https://cdn.discordapp.com/attachments/1359074889570455562/1359615445891809290/FDwxHYmWYAAVBSg.png?ex=6800b1ce&is=67ff604e&hm=fddf4ccc92cef52bad3baf5f98b481345a3f9b4679d78cb0fad2858b4c63a60e&" alt="图片附件">
+              </div>
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/796769460400554074/47c7813b83c55b806eddd7d98223e1ef.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">kufrcleaner1</span><span class="time">Thu Apr 10 2025 00:47:30 GMT+0500 (Pakistan Standard Time)</span></p>
+          <p><span style="color: skyblue;"></span> # Atheism of Islamic scholars?
+
+
+Ahad means (deviating from the origin), while the meaning of (denying God) is a hadith.
+The scholars accused of their religion are few, and they were not accused for their knowledge, but for a doctrinal error, despite their belief in Islam. None of them denied God, some of them slandered Him, and some of them repented 👇 Their books testify.
+Arguments for Prophethood by Al-Jahiz
+The Ideal City of Al-Farabi
+
+
+
+لحاد علماءالاسلام
+ألحد تعني(مال عن الأصل)أما معنى(منكر لله)فهو حديث
+العلماء المتهمين في دينهم قلةولم يتهموا لعلمهم بل لخطأ عقيدي رغم إيمانهم بالإسلام فليس منهم منكر لله ومنهم من إفتري عليه ومنهم من تاب👇كتبهم تشهد
+حجج النبوةللجاحظ 
+المدينةالفاضلةللفارابي</p>
+          <div class="attachment image-attachment">
+                <img src="https://cdn.discordapp.com/attachments/1359074889570455562/1359615726935085266/FDxJSNVWQAwK4CV.png?ex=6800b211&is=67ff6091&hm=4cf7e7b1f85d200f4c53f2d8b1021dbf2af621e53d064f190dafec50774b725a&" alt="图片附件">
+              </div>
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/796769460400554074/47c7813b83c55b806eddd7d98223e1ef.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">kufrcleaner1</span><span class="time">Thu Apr 10 2025 00:48:20 GMT+0500 (Pakistan Standard Time)</span></p>
+          <p><span style="color: skyblue;"></span> # Hadith Science
+A science that studies the transmitters of news, hadiths, and athars, criticizing and modifying them, and studies the correction and weakening of narratives. It has caused a revolution in the science of history, making the weakest hadith among Muslims more reliable than the Holy Book and the books of ancient philosophers that were transmitted, cited, and attributed to Aristotle, Plato, and others.</p>
+          <div class="attachment image-attachment">
+                <img src="https://cdn.discordapp.com/attachments/1359074889570455562/1359615936860258344/FEZuSBLXIAQiqPO.png?ex=6800b243&is=67ff60c3&hm=48264dc12632dad09e06c394506eb36cccac33dd8d439c5fcc116aca7c1644f1&" alt="图片附件">
+              </div>
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/796769460400554074/47c7813b83c55b806eddd7d98223e1ef.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">kufrcleaner1</span><span class="time">Thu Apr 10 2025 00:49:27 GMT+0500 (Pakistan Standard Time)</span></p>
+          <p><span style="color: skyblue;"></span> # ISNAD science
+The accuracy and reliability of the science of isnad of hadith and narrations has been acknowledged by Western Orientalists and Eastern Christians.</p>
+          <div class="attachment image-attachment">
+                <img src="https://cdn.discordapp.com/attachments/1359074889570455562/1359616215739535370/FnqrXblXgAIYu7q.png?ex=6800b286&is=67ff6106&hm=364aae82546616746339ad34ba36ff0131f4e8c6b2f9014cea9f8c503f54b12f&" alt="图片附件">
+              </div>
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/796769460400554074/47c7813b83c55b806eddd7d98223e1ef.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">kufrcleaner1</span><span class="time">Thu Apr 10 2025 00:50:33 GMT+0500 (Pakistan Standard Time)</span></p>
+          <p><span style="color: skyblue;"></span> # Al-Bukhari 
+One of the stupidities of the #Arab_Secularist😂 is the attempt to attack the Hadith - especially Al-Bukhari - in a desperate attempt to distort the meanings of the Qur’an by denying the Sunnah that explains it, by belittling (the chain of transmission). They forgot that in doing so they are destroying most of human knowledge, since most of human knowledge was transmitted and they did not witness it.</p>
+          <div class="attachment image-attachment">
+                <img src="https://cdn.discordapp.com/attachments/1359074889570455562/1359616494018760855/Fnv4F8jWIAA4aZV.png?ex=6800b2c8&is=67ff6148&hm=9020d5a5e35ca4ca9f65566bc2187183166e5d40913b7f6443c82f3f01728338&" alt="图片附件">
+              </div>
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/796769460400554074/47c7813b83c55b806eddd7d98223e1ef.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">kufrcleaner1</span><span class="time">Thu Apr 10 2025 00:52:24 GMT+0500 (Pakistan Standard Time)</span></p>
+          <p><span style="color: skyblue;"></span> # Egyptology
+The ancient Egyptians enjoyed a rich civilization and knowledge, which was passed on from them to the Greeks. With the adoption of Christianity by the Roman Empire, which rejected science and civilization, all sciences were neglected and even the use of hieroglyphic letters was forbidden, which led to the loss of its heritage. The first to try to solve its symbols were the Muslims.</p>
+          <div class="attachment image-attachment">
+                <img src="https://cdn.discordapp.com/attachments/1359074889570455562/1359616958236201091/FoJ9Z1GWQAAJsU-.png?ex=6800b337&is=67ff61b7&hm=65bed51f98694a7b1f978a2979ee3936c88940f7399de206710d198edaacf6d1&" alt="图片附件">
+              </div>
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/796769460400554074/47c7813b83c55b806eddd7d98223e1ef.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">kufrcleaner1</span><span class="time">Thu Apr 10 2025 00:52:26 GMT+0500 (Pakistan Standard Time)</span></p>
+          <p><span style="color: skyblue;"></span> # hieroglyph
+Today's Christians are trying to cling to the civilization of the ancients, although the tool for destroying that civilization was the Christian religion. It worked to destroy its monuments and replace its Egyptian letters with the letters of the conquering Greek, rejecting the religion of the ancients and getting closer to the language of the Bible. The Muslims preceded Champollion in solving it.</p>
+          <div class="attachment image-attachment">
+                <img src="https://cdn.discordapp.com/attachments/1359074889570455562/1359616967983763679/FoMkOh5XEAA1vlV.png?ex=6800b339&is=67ff61b9&hm=2c594110c03c86ceb074617e49d6518ba3e9c474428c4dbb10d2b925b1c5ec8d&" alt="图片附件">
+              </div>
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/796769460400554074/47c7813b83c55b806eddd7d98223e1ef.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">kufrcleaner1</span><span class="time">Thu Apr 10 2025 00:53:46 GMT+0500 (Pakistan Standard Time)</span></p>
+          <p><span style="color: skyblue;"></span> #  Ahmad ibn Wahshiyya
+The author of the book (Shawq Al-Mustaham fi Ma'rifat Ramuz Al-Aqlam), which was printed in London in 1806 AD, in which Ibn Wahshiya solved more than half of the hieroglyphic alphabet, dating back to the tenth century, i.e. nine centuries before Champollion.</p>
+          <div class="attachment video-attachment">
+                <video controls>
+                  <source src="https://cdn.discordapp.com/attachments/1359074889570455562/1359617306547716126/x-downloader.com_vhoWKX.mp4?ex=6800b38a&is=67ff620a&hm=31225ab7a053f5b5410983d9bf1e9eccd85d65cf625ec006f4112fb30aa41cf2&" type="video/mp4">
+                  Your browser does not support the video element.
+                </video>
+              </div>
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/796769460400554074/47c7813b83c55b806eddd7d98223e1ef.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">kufrcleaner1</span><span class="time">Thu Apr 10 2025 00:53:58 GMT+0500 (Pakistan Standard Time)</span></p>
+          <p><span style="color: skyblue;"></span> <a:red:1347233472254574675> TOP</p>
+          
+        </div>
+      </li>
+    
+      <li class="sameSender">
+        <img class="titleImg" width="40px" height="40px" src="https://cdn.discordapp.com/avatars/796769460400554074/47c7813b83c55b806eddd7d98223e1ef.png?size=128" alt="">
+        <div class="titleInfo">
+          <p class="timeInfo"><span class="chatName">kufrcleaner1</span><span class="time">Thu Apr 10 2025 00:56:33 GMT+0500 (Pakistan Standard Time)</span></p>
+          <p><span style="color: skyblue;"></span> <@&1311669893648879658> <@&1321512031161028668> <@&1321512037930635364> 
+
+1001 Inventions 
+
+What has Islam given to the World?</p>
+          
+        </div>
+      </li>
+    
+          </ul>
+        </div>
+
+      </body>
+      </html>
+    
